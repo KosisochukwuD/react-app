@@ -1,0 +1,76 @@
+@media (max-width: 768px) {
+  .profile-name {
+    font-size: 1.7em;
+  }
+
+  .profile-bio {
+    font-size: 1em;
+  }
+.two-column img {
+   display:none;
+  }
+
+
+
+  .navbar .open {
+    width: 50%;
+  }
+
+  .nav-links li {
+    text-align: center;
+ 
+  }
+  .explanation1{
+    margin-top: 30px;
+}
+.socials , .contact-info{
+  width: 90%;
+  
+  margin: 20px auto;
+
+}
+.socials span img{
+  width:30px;
+  height:30px;
+  margin: 5px;
+}
+
+
+
+}
+@media (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 640px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .wrap1 ,.wrap2 {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .image-side img {
+    width: 100%;
+    height: auto;
+  }
+
+  .profile-name {
+    font-size: 1.8em;
+  }
+   .profile-card{
+    background:white;
+   }
+  .explanation1,
+  .explanation2 {
+    background: none;
+    box-shadow: none;
+    width: 100%;
+  }
+}

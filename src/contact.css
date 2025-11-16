@@ -1,0 +1,36 @@
+
+.socials , .contact-info{
+  max-width: 500px;
+  height: 200px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin: 50px auto;
+  text-align: center;
+}
+
+.socials span img{
+  width:40px;
+  height:40px;
+  cursor:pointer;
+  transition: transform 0.2s;
+  margin: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.socials span img:hover {
+  transform: scale(1.1);
+}
+.socials span img:active{
+  transform: scale(0.9);
+}
+h1{
+  text-align: center;
+  margin-top: 50px;
+  color: #1f2937;
+}
+.socials h3{
+  color: #1f2937;
+  margin-top: 20px;
+}
+
