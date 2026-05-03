@@ -18,11 +18,11 @@ const Contact = () =>{
          </div>
         <div className="socials">
            <h3>social media handles</h3>
-            <span><a href='https://www.instagram.com/kohsea_the_digitaldev?igsh=MWpidDlhYXIwZjBqeg=='><img src={ig}/></a></span>
-            <span><a href='https://www.facebook.com/share/16Rp3ZQB5v/'><img src={facebook}/></a></span>
-            <span><a href='https://wa.me/2348101133428?text=Hello%20I%20want%20to%20learn%20more%20about%20your%20digital%20courses'><img src={whatsapp}/></a></span>
-            <span><a href='https://x.com/Divine06263650?t=CD5Z5X4AeH7v7ZWGD6BlzA&s=09'><img src={x}/></a></span>
-            <span><a href='https://www.threads.com/@kohsea_the_digitaldev'><img src={threads}/></a></span>
+            <span><a href='https://www.instagram.com/kohsea_the_digitaldev?igsh=MWpidDlhYXIwZjBqeg=='><img src={ig} alt="Instagram"/></a></span>
+            <span><a href='https://www.facebook.com/share/16Rp3ZQB5v/'><img src={facebook} alt="Facebook"/></a></span>
+            <span><a href='https://wa.me/2348101133428?text=Hello%20I%20want%20to%20learn%20more%20about%20your%20digital%20courses'><img src={whatsapp} alt="WhatsApp"/></a></span>
+            <span><a href='https://x.com/Divine06263650?t=CD5Z5X4AeH7v7ZWGD6BlzA&s=09'><img src={x} alt="X"/></a></span>
+            <span><a href='https://www.threads.com/@kohsea_the_digitaldev'><img src={threads} alt="Threads"/></a></span>
             <span><a href="https://www.linkedin.com/in/kosisochukwu-okechukwu-450a0a290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android
 _"><img src={linkedin}/></a></span>
         </div>

@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className="app-container">
       <Navbar />
-                 <span className='whatsapp-contact'><a href='https://wa.me/2348101133428?text=Hello%20I%20want%20to%20learn%20more%20about%20your%20digital%20courses'><img src={whatsapp}/></a></span>
+                 <span className='whatsapp-contact'><a href='https://wa.me/2348101133428?text=Hello%20I%20want%20to%20learn%20more%20about%20your%20digital%20courses'><img src={whatsapp} alt=''/></a></span>
      
       <Routes>
         <Route path="/" element={<Profile />} />
