@@ -79,6 +79,9 @@ const Profile = () => {
               In today’s world, digital skills are more than an advantage — they’re a necessity. 
               <strong> Every industry is evolving</strong>, and opportunities now belong to those who can create, design, and market online.
             </p>
+                      <button className="cta-btn" onClick={() => navigate('/learn')}>
+            get started
+          </button>
           </div>
         </div>
       </section>
