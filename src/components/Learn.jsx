@@ -45,7 +45,7 @@ const Learn = () => {
           <div className="skill-card">
             <h3>Affiliate Marketing</h3>
             <p>Learn how affiliate marketing works and start earning.</p>
-            <a href='https://copywritinglab.selar.com/672730'></a><button>Start Learning</button>
+            <a href='https://copywritinglab.selar.com/672730'><button>Start Learning</button></a>
           </div>
 
 
@@ -53,7 +53,7 @@ const Learn = () => {
           <div className="skill-card">
             <h3>Copywriting</h3>
             <p>Learn how to write persuasive messages that sell.</p>
-            <a href='https://copywritinglab.selar.com/4hm615'><button>Start Learning</button></a>
+            <a href='https://copywritinglab.selar.com/1m6026'><button>Start Learning</button></a>
           </div>
 
           <div className="skill-card">
