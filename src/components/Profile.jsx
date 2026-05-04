@@ -87,7 +87,7 @@ const Profile = () => {
       </section>
       
       {/* Floating WhatsApp Button */}
-      <a href="https://wa.me/YOURNUMBER" className="whatsapp-contact">
+      <a href="https://wa.me/08101133428" className="whatsapp-contact">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Contact" />
       </a>
     </>
