@@ -26,8 +26,8 @@ body {
 }
 
 .profile-image {
-  width: 250px; /* Make it bigger for maximum trust */
-  height: 250px;
+  width: 300px; /* Make it bigger for maximum trust */
+  height: 300px;
   margin: 0 auto;
   border-radius: 50%; /* Keep it circular */
   overflow: hidden;
