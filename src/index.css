@@ -26,8 +26,8 @@ body {
 }
 
 .profile-image {
-  width: 300px; /* Make it bigger for maximum trust */
-  height: 300px;
+  width: 310px; /* Make it bigger for maximum trust */
+  height: 350px;
   margin: 0 auto;
   border-radius: 50%; /* Keep it circular */
   overflow: hidden;
@@ -58,11 +58,11 @@ body {
   font-size: 2.8rem;
   font-weight: 700;
   margin-top: 25px;
-  color: #2e1065;
+  color: 2e1065;
 }
 
 .profile-name span {
-  color: #7c3aed;
+  color: #2c3e50;
 }
 
 .profile-bio {
