@@ -20,7 +20,7 @@ body {
 .profile-card {
   padding: 100px 20px 60px;
   text-align: center;
-  background: radial-gradient(circle at top, #ffffff 20%, #f3e8ff 100%);
+  background: #f4f7f6;
   position: relative;
   overflow: hidden;
 }
@@ -58,7 +58,7 @@ body {
   font-size: 2.8rem;
   font-weight: 700;
   margin-top: 25px;
-  color: 2e1065;
+  color: #2e1065e5;
 }
 
 .profile-name span {
