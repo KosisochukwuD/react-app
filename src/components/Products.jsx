@@ -13,15 +13,15 @@ const Products = () => {
   return (
 <div class="grid-container">
   <a href="https://copywritinglab.selar.com/672730" class="grid-item item-1" target="_blank" rel="noopener noreferrer">
-    <img src={myaffliate} alt="Affiliate Marketing" />
+    <img src={myaffliate} alt="Affiliate Marketing" loading='lazy'/>
     <div class="content">
       <h3>Affiliate Marketing</h3>
       <p>Learn how to earn commissions by promoting other people's products.</p>
     </div>
   </a>
 
-  <a href="https://copywritinglab.selar.com/4hm615" class="grid-item item-2" target="_blank" rel="noopener noreferrer">
-    <img src={mycanva} alt="Canva Design" />
+  <a href="https://copywritinglab.selar.com/4hm615" class="grid-item item-2" target="_blank" rel="noopener noreferrer" >
+    <img src={mycanva} alt="Canva Design" loading='lazy' />
     <div class="content">
       <h3>Canva Design</h3>
       <p>Create stunning designs easily with Canva — even without design experience.</p>
@@ -29,7 +29,7 @@ const Products = () => {
   </a>
 
   <a href="https://copywritinglab.selar.com/1m6026" class="grid-item item-3" target="_blank" rel="noopener noreferrer">
-    <img src={mycopy} alt="Copywriting" />
+    <img src={mycopy} alt="Copywriting" loading='lazy'/>
     <div class="content">
       <h3>Copywriting</h3>
       <p>Master the art of persuasive writing to boost sales and engagement.</p>
@@ -37,7 +37,7 @@ const Products = () => {
   </a>
 
   <a href="https://copywritinglab.selar.com/57epr1" class="grid-item item-4" target="_blank" rel="noopener noreferrer">
-    <img src={myforex} alt="Forex Trading" />
+    <img src={myforex} alt="Forex Trading" loading='lazy'/>
     <div class="content">
       <h3>Forex Trading</h3>
       <p>Understand the foreign exchange market and learn how to trade effectively.</p>
@@ -45,7 +45,7 @@ const Products = () => {
   </a>
 
   <a href="https://selar.com/6619r4?affiliate=wbjj" class="grid-item item-5" target="_blank" rel="noopener noreferrer">
-    <img src={mywebdev} alt="Web Development" />
+    <img src={mywebdev} alt="Web Development" loading='lazy'/>
     <div class="content">
       <h3>Web Development</h3>
       <p>Build and maintain websites using HTML, CSS, and JavaScript.</p>
@@ -53,7 +53,7 @@ const Products = () => {
   </a>
 
   <a href="https://copywritinglab.selar.com/8koie08101" class="grid-item item-6" target="_blank" rel="noopener noreferrer">
-    <img src={myghost} alt="Digital Skills" />
+    <img src={myghost} alt="Digital Skills" loading='lazy'/>
     <div class="content">
       <h3></h3>
       <p>Gain practical skills to thrive in today’s digital economy.</p>

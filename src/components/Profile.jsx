@@ -15,7 +15,8 @@ const Profile = () => {
         </div>
         <h1 className="profile-name">Hi, I'm <span>kodeKosi</span></h1>
         <p className="profile-bio">
-          Empowering young Nigerians to earn online through digital skills and affiliate marketing.
+         <h2>Master the digital skills that pay in dollars</h2>
+         <p>Stop scrolling and start earning. learn a digital skill today</p>
         </p>
         <div className="cta-container">
           <button className="cta-btn" onClick={() => navigate('/products')}>
@@ -48,7 +49,7 @@ const Profile = () => {
 
         <div className='inventory'>
           <a href="https://copywritinglab.selar.com/672730" className="grid-item" target="_blank" rel="noopener noreferrer">
-            <img src={myaffliate} alt="Affiliate Marketing" />
+            <img src={myaffliate} alt="Affiliate Marketing" loading='lazy'/>
             <div className="content">
               <div className="rating">⭐ 4.9 (1.2k reviews)</div>
               <h3>Affiliate Mastery</h3>
@@ -57,7 +58,7 @@ const Profile = () => {
           </a>
         
           <a href="https://copywritinglab.selar.com/4hm615" className="grid-item" target="_blank" rel="noopener noreferrer">
-            <img src={mycanva} alt="Canva Design" />
+            <img src={mycanva} alt="Canva Design" loading='lazy'/>
             <div className="content">
               <div className="rating">⭐ 4.8 (850 reviews)</div>
               <h3>Canva Design Pro</h3>
@@ -71,7 +72,7 @@ const Profile = () => {
         {/* ... Keep your wraps, but notice the text density ... */}
         <div className="wrap1">
           <div className="image-side">
-            <img src={myImageside} alt="Digital Growth" />
+            <img src={myImageside} alt="Digital Growth" loading='lazy'/>
           </div>
           <div className="explanation2">
             <h2>The World is Going Digital — Don’t Get Left Behind</h2>

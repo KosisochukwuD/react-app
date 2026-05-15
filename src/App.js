@@ -9,6 +9,7 @@ import Contact from './components/Contact'
 import Learn from './components/Learn'
 import whatsapp from './assets/whatsapp.png'
 
+
 const App = () => {
   return (
     <div className="app-container">
