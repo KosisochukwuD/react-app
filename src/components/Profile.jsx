@@ -66,7 +66,7 @@ const Profile = () => {
   <div className="marketing-pitch">
     <p>The system is simple: <strong>Every single day, millions of people spend hours online looking for answers. I just learned how to position myself to sell them the solution.</strong> 
     While others are sleeping on these opportunities, my digital funnels run on complete autopilot generating income in dollars round-the-clock.</p>
-    <button className="cta-btn secondary" onClick={() => {scrolltomentorship}}>Show Me The Strategy</button>
+    <button className="cta-btn secondary" onClick={() => {scrolltomentorship()}}>Show Me The Strategy</button>
   </div>
 </section>
       {/* NEW TRUST BAR SECTION */}
