@@ -60,8 +60,9 @@ body {
 
 .results-header h2 {
   font-size: 2.5rem;
-  color: #102a43; /* Deep Navy to match your suit vibe */
+  color: #102a43; /* Midnight Navy to match your suit */
   margin: 15px 0;
+  font-weight: 700;
 }
 
 .badge {
@@ -72,6 +73,7 @@ body {
   font-weight: 700;
   font-size: 0.8rem;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .results-gallery {
@@ -106,18 +108,20 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(transparent, rgba(16, 42, 67, 0.9));
+  background: linear-gradient(transparent, rgba(16, 42, 67, 0.95));
   padding: 20px;
   color: #fff;
   font-weight: 600;
   text-align: left;
+  font-size: 1.1rem;
 }
 
 .marketing-pitch {
-  max-width: 800px;
+  max-width: 850px;
   margin: 0 auto;
   font-size: 1.2rem;
   color: #486581;
+  line-height: 1.7;
 }
 
 .marketing-pitch strong {
@@ -125,11 +129,11 @@ body {
 }
 
 .cta-btn.secondary {
-  background: #102a43; /* Darker navy button to look high-end */
+  background: #102a43; 
   margin-top: 30px;
 }
 
-/* Update the Hero Button and Name to match the "Vibe" */
+/* Color Sync for Hero Section to match the suit vibe */
 .profile-name span {
   color: #102a43 !important;
 }

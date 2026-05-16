@@ -29,38 +29,38 @@ const Profile = () => {
         </div>
       </div>
      {/* NEW: EARNINGS & PROOF SECTION */}
+{/* NEW: EARNINGS & PROOF SECTION */}
 <section className="results-section">
   <div className="results-header">
     <span className="badge">Results Don't Lie</span>
-    <h2>From Medical Student to 6-Figure Digital Earner</h2>
-    <p>I stopped wishing for a better life and started building one. Here’s a glimpse of the payouts and impact we’re creating daily.</p>
+    <h2>While the Rest of the World is Sleeping, We’re Building.</h2>
+    <p>I stopped using my phone just for entertainment and turned it into a money-printing machine. Here is the daily proof of what's possible when you stop scrolling.</p>
   </div>
 
   <div className="results-gallery">
     <div className="result-card">
-      <img src={myimg1} alt="Earnings Screenshot" /> 
+      <img src={myaffliate} alt="Earnings Screenshot" /> 
       <div className="result-overlay">
-        <span>Daily Payout: ₦250k+</span>
+        <span>Daily Payout: ₦100k+</span>
       </div>
     </div>
     <div className="result-card">
-      <img src={myimg2} alt="Sales Notification" />
+      <img src={mycanva} alt="Sales Notification" />
       <div className="result-overlay">
         <span>Weekly Conversions</span>
       </div>
     </div>
     <div className="result-card">
-      {/* Add another image import for a third proof pic if you have one */}
-      <img src={myimg3} alt="Student Success" />
+      <img src={myaffliate} alt="Student Success" />
       <div className="result-overlay">
-        <span>Student Results</span>
+        <span>sales result</span>
       </div>
     </div>
   </div>
 
   <div className="marketing-pitch">
-    <p>While my peers were only focused on the next exam, I was busy cracking the code to <strong>making money in dollars</strong>. Whether it's 2 AM in the hostel or between medical postings, these systems run on autopilot.</p>
-    <button className="cta-btn secondary" onClick={() => navigate('/products')}>Show Me How It’s Done</button>
+    <p>The system is simple: <strong>Every single day, millions of people spend hours online looking for answers. I just learned how to position myself to sell them the solution.</strong> While others are sleeping on these opportunities, my digital funnels run on complete autopilot—generating income in dollars round-the-clock.</p>
+    <button className="cta-btn secondary" onClick={() => navigate('/products')}>Show Me The Strategy</button>
   </div>
 </section>
       {/* NEW TRUST BAR SECTION */}
