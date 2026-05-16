@@ -10,7 +10,12 @@ import myimg3 from '../assets/img3.jpg';
 
 const Profile = () => {
   const navigate = useNavigate();
-
+ const scrolltomentorship = () => {
+    const mentorshipSection = document.getElementById('free-mentorship');
+    if (mentorshipSection) {
+      mentorshipSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
   return (
     <>
       <div className="profile-card">
@@ -61,7 +66,7 @@ const Profile = () => {
   <div className="marketing-pitch">
     <p>The system is simple: <strong>Every single day, millions of people spend hours online looking for answers. I just learned how to position myself to sell them the solution.</strong> 
     While others are sleeping on these opportunities, my digital funnels run on complete autopilot generating income in dollars round-the-clock.</p>
-    <button className="cta-btn secondary" onClick={() => navigate('/products')}>Show Me The Strategy</button>
+    <button className="cta-btn secondary" onClick={() => {scrolltomentorship}}>Show Me The Strategy</button>
   </div>
 </section>
       {/* NEW TRUST BAR SECTION */}
@@ -108,7 +113,7 @@ const Profile = () => {
         </div>
       </section>
 
-      <section className="two-column">
+      <section className="two-column" id='free-mentorship'>
         {/* ... Keep your wraps, but notice the text density ... */}
         <div className="wrap1">
           <div className="image-side">
@@ -117,12 +122,12 @@ const Profile = () => {
           <div className="explanation2">
             <h2>The World is Going Digital — Don’t Get Left Behind</h2>
             <p>
-              In today’s world, digital skills are more than an advantage — they’re a necessity. 
-              <strong> Every industry is evolving</strong>, and opportunities now belong to those who can create, design, and market online.
+              In today’s world, digital skills are more than an advantage they’re a necessity. 
+              <strong> join me on whatsapp where i offer free personal mentorship, and guidance on how to be successful in online earning .</strong> i drop updates and opportunity on how to excel as a digital marketer and techie in general.
             </p>
-                      <button className="cta-btn" onClick={() => navigate('/learn')}>
+                      <a href="https://wa.me/08101133428" className="whatsapp-contact"><button className="cta-btn" >
             get started
-          </button>
+          </button></a>
           </div>
         </div>
       </section>
