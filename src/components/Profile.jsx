@@ -4,6 +4,10 @@ import myImage from '../assets/gemnipic.png';
 import myImageside from '../assets/gemni-side.svg'
 import myaffliate from '../assets/affliatemarketing.png';
 import mycanva from '../assets/canvadesign.png';
+import myimg1 from '../assets/img1.jpg';
+import myimg2 from '../assets/img2.jpg';
+import myimg3 from '../assets/img3.jpg';
+
 const Profile = () => {
   const navigate = useNavigate();
 
@@ -24,9 +28,44 @@ const Profile = () => {
           </button>
         </div>
       </div>
+     {/* NEW: EARNINGS & PROOF SECTION */}
+<section className="results-section">
+  <div className="results-header">
+    <span className="badge">Results Don't Lie</span>
+    <h2>From Medical Student to 6-Figure Digital Earner</h2>
+    <p>I stopped wishing for a better life and started building one. Here’s a glimpse of the payouts and impact we’re creating daily.</p>
+  </div>
 
+  <div className="results-gallery">
+    <div className="result-card">
+      <img src={myimg1} alt="Earnings Screenshot" /> 
+      <div className="result-overlay">
+        <span>Daily Payout: ₦250k+</span>
+      </div>
+    </div>
+    <div className="result-card">
+      <img src={myimg2} alt="Sales Notification" />
+      <div className="result-overlay">
+        <span>Weekly Conversions</span>
+      </div>
+    </div>
+    <div className="result-card">
+      {/* Add another image import for a third proof pic if you have one */}
+      <img src={myimg3} alt="Student Success" />
+      <div className="result-overlay">
+        <span>Student Results</span>
+      </div>
+    </div>
+  </div>
+
+  <div className="marketing-pitch">
+    <p>While my peers were only focused on the next exam, I was busy cracking the code to <strong>making money in dollars</strong>. Whether it's 2 AM in the hostel or between medical postings, these systems run on autopilot.</p>
+    <button className="cta-btn secondary" onClick={() => navigate('/products')}>Show Me How It’s Done</button>
+  </div>
+</section>
       {/* NEW TRUST BAR SECTION */}
       <div className="trust-bar">
+        
         <div className="stat-item">
           <h4>5K+</h4>
           <p>Students</p>
