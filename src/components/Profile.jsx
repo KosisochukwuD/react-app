@@ -34,24 +34,24 @@ const Profile = () => {
   <div className="results-header">
     <span className="badge">Results Don't Lie</span>
     <h2>While the Rest of the World is Sleeping, We’re Building.</h2>
-    <p>I stopped using my phone just for entertainment and turned it into a money-printing machine. Here is the daily proof of what's possible when you stop scrolling.</p>
+    <p>I stopped using my phone just for entertainment and turned it into a money printing machine. Here is the daily proof of what's possible when you stop scrolling.</p>
   </div>
 
   <div className="results-gallery">
     <div className="result-card">
-      <img src={myaffliate} alt="Earnings Screenshot" /> 
+      <img src={myimg2} alt="Earnings Screenshot" /> 
       <div className="result-overlay">
         <span>Daily Payout: ₦100k+</span>
       </div>
     </div>
     <div className="result-card">
-      <img src={mycanva} alt="Sales Notification" />
+      <img src={myimg1} alt="Sales Notification" />
       <div className="result-overlay">
         <span>Weekly Conversions</span>
       </div>
     </div>
     <div className="result-card">
-      <img src={myaffliate} alt="Student Success" />
+      <img src={myimg3} alt="Student Success" />
       <div className="result-overlay">
         <span>sales result</span>
       </div>
@@ -59,7 +59,8 @@ const Profile = () => {
   </div>
 
   <div className="marketing-pitch">
-    <p>The system is simple: <strong>Every single day, millions of people spend hours online looking for answers. I just learned how to position myself to sell them the solution.</strong> While others are sleeping on these opportunities, my digital funnels run on complete autopilot—generating income in dollars round-the-clock.</p>
+    <p>The system is simple: <strong>Every single day, millions of people spend hours online looking for answers. I just learned how to position myself to sell them the solution.</strong> 
+    While others are sleeping on these opportunities, my digital funnels run on complete autopilot generating income in dollars round-the-clock.</p>
     <button className="cta-btn secondary" onClick={() => navigate('/products')}>Show Me The Strategy</button>
   </div>
 </section>
