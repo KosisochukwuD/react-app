@@ -125,7 +125,7 @@ const Profile = () => {
               In today’s world, digital skills are more than an advantage they’re a necessity. 
               <strong> join me on whatsapp where i offer free personal mentorship, and guidance on how to be successful in online earning .</strong> i drop updates and opportunity on how to excel as a digital marketer and techie in general.
             </p>
-                      <a href="https://wa.me/08101133428" className="whatsapp-contact"><button className="cta-btn" >
+                      <a href="https://wa.me/08101133428" ><button className="cta-btn" >
             get started
           </button></a>
           </div>
